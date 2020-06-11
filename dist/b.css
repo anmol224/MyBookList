@@ -1,0 +1,79 @@
+h1
+{
+	text-align: center;
+	font-size: 40px;
+}
+#book-form
+{
+	display: grid;
+	grid-template-rows: 4fr;
+	align-items: center;
+	justify-content: center;
+	grid-gap: 2rem;
+	font-size: 20px;
+	background-color: #f4f4f4;
+
+}
+.form-group input
+{
+	height: 30px;
+	width: 300px;
+}
+.table 
+{
+
+	width:70%;
+	margin-top: 2rem;
+	border-collapse: collapse;
+	border-spacing: 2rem;
+	margin:auto;
+	margin-top: 2rem;	}
+
+.table thead th
+{
+	text-transform: uppercase;
+	padding: 1rem;
+
+}
+.table tr td
+{
+	padding: 0.8rem 1rem;
+	text-align: center;
+	
+}
+ #book-form #sub
+{
+ 		background-color:#3e71ee;
+ 		color: black;
+ 		font-weight: bold;
+ 		font-family: sans-serif;
+ 		padding: 1.2rem;
+ 		font-size: 24px;
+
+}
+.alert
+{
+	width: 20%;
+	margin: auto;
+	padding:0.4rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	font-size: 1.7rem;
+	font-family: helvetica;
+	background-color: red;
+
+}
+.success
+{
+	width: 40%;
+
+	background-color: green;
+	font-weight: bold;
+	font-size: 1.3rem;
+	font-family: sans-serif;
+	text-decoration: underline;
+	padding: 1rem;
+	text-align: center;
+	margin: auto;
+}
+
