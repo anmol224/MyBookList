@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Booklist</title>
+	
+	<link rel="stylesheet" type="text/css" href="b.css">
+	<script src="https://kit.fontawesome.com/82fa2a014b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h1><i  style="color:#1f93d6fc; " class="fas fa-book-open fa-3x"></i> My <span style="color: blue">Book</span> List App</h1>
+		
+		<form id="book-form">
+			<div class="form-group">
+				
+				<label>Title</label>
+				<br>
+				<input type="text" name="text" id="title" class="form-control">
+			</div>
+			<div class="form-group">
+				
+				<label>Author</label>
+				<br>
+				<input  type="text" name="text" id="author" class="form-control">
+			</div>
+			<div class="form-group">
+				
+				<label>ISBN#</label>
+				<br>
+				<input type="text" name="text" id="isbn" class="form-control">
+			</div>
+			<input type="submit" value="Add Book" name="submit" id="sub">
+
+		</form>
+		<table class="table">
+			<thead>
+				<tr>
+				<th>Title</th>
+				<th>Author</th>
+				<th>ISBN</th>
+				<th></th>
+				</tr>
+			</thead>
+			<tbody id="book-list"> 
+				
+			</tbody>
+			 
+		</table>
+	</div>
+
+	<script src="app.js"></script>
+
+</body>
+</html>
